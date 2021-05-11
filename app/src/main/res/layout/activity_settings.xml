@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".Activity.Settings">
+
+    <ImageView
+        android:id="@+id/save"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="310dp"
+        android:src="@drawable/checked"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_set"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profile"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+    <EditText
+        android:id="@+id/set_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="V chat"
+        android:textSize="20dp"
+        android:background="@null"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/set_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hey there i am harrry"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:background="@null"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+</LinearLayout>
